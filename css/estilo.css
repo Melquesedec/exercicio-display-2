@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#geralum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+
+#geraldois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
+
+#caixaum{
+    background-color: blue;
+    height: 350px;
+    width: 200px;
+    padding: 50px;
+    margin: 5px 5px;
+    border: solid 3px black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+#caixadois{
+    background-color: blue;
+    height: 350px;
+    width: 50px;
+    padding: 50px;
+    border: solid 3px black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+#caixatres{
+    background-color: blue;
+    height: 350px;
+    width: 1320px;
+    padding: 50px;
+    border: solid 3px black;
+    margin: 5px 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+#caixa-um{
+    background-color: aqua;
+    height: 20px;
+    width: 980px;
+    padding: 10px;
+    border: solid 3px black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    transition: 0.7s all;
+}
+
+#caixa-dois{
+    background-color: aqua;
+    height: 20px;
+    width: 640px;
+    padding: 10px;
+    border: solid 3px black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    transition: 0.7s all;
+}
+
+#caixa-tres{
+    background-color: aqua;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    border: solid 3px black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    transition: 0.7s all;
+}
+
+#geraldois :hover{
+    background-color: orange;
+    transition: 0.7s all;
+    color: white;
+}
